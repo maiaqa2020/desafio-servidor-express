@@ -7,6 +7,11 @@ const server = app.listen(PORT, () => {
 })
 server.on("error", error => console.log(`Error en servidor ${error}`))
 
+//Bienvenida
+app.get('/', (request, response) => {
+    response.send('<h1 style="color:blue">Entrega desafío 4</h1>')
+ })
+
 //clase Contenedor: recibe el nombre del archivo con el que va a trabajar
 class Contenedor {
     constructor(fileName) {
