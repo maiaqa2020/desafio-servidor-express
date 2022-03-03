@@ -1,0 +1,15 @@
+{
+  "name": "servidorconexpress",
+  "version": "1.0.0",
+  "description": "Desafio Servidor con Express y Glitch",
+  "main": "Servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servidor.js"
+  },
+  "author": "Maiara Cercasi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
